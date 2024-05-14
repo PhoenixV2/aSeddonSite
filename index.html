@@ -51,7 +51,7 @@
       <div class="landing-page-container">
         <div class="landing-page-top-container">
           <nav data-role="Header" class="landing-page-navbar">
-            <h1>Andrew Seddon</h1>
+            <h1 class="landing-page-title-blur">Andrew Seddon</h1>
             <div class="landing-page-right-side">
               <div class="landing-page-links-container">
                 <a href="#about-me-section" class="landing-page-link">
@@ -190,6 +190,27 @@
         </div>
         <div id="about-me-section" class="landing-page-main">
           <h1>About Me</h1>
+          <div markdown="1">
+            # Testing
+            
+            I would like to verify if markdown works:
+            * Point 1 is valid
+            ** Point 2 is also valid
+            
+            > I once heard someone say that
+
+            ## Testing Code blocks
+
+            can I get a code block to work
+
+            ```python
+            import yaml
+
+            with open("file.yaml") as y:
+              data = yaml.load(y, Loader=yaml.SafeLoader)
+              version = data["version"]
+            ```
+          </div>
           <p>
             I've been an engineer for a while now, and believe it or not, I even sometimes know what I'm doing.
             I'm really tempted to see whether or not this bad boy will automatically wrap or not, I have the
@@ -238,8 +259,8 @@
               <img src="assets\mission_patches\f_45.png" title="Flight 45 - Owl Night Long">
               <img src="assets\mission_patches\f_46.png" title="Flight 46 - Live and Let Fly">
               <img src="assets\mission_patches\f_47.png" title="Flight 47 - Beginning Of The Swarm">
-              <img src="assets\mission_patches\f_48.png" title="Flight 48 - ">
-              <img src="assets\mission_patches\f_49.png" title="Flight 49 - ">
+              <!-- <img src="assets\mission_patches\f_48.png" title="Flight 48 - "> -->
+              <!-- <img src="assets\mission_patches\f_49.png" title="Flight 49 - "> -->
             </div>
             <div class="banner"></div>
           </div>
