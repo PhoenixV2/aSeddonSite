@@ -42,6 +42,7 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
@@ -190,27 +191,6 @@
         </div>
         <div id="about-me-section" class="landing-page-main">
           <h1>About Me</h1>
-          <div markdown="1">
-            # Testing
-            
-            I would like to verify if markdown works:
-            * Point 1 is valid
-            ** Point 2 is also valid
-            
-            > I once heard someone say that
-
-            ## Testing Code blocks
-
-            can I get a code block to work
-
-            ```python
-            import yaml
-
-            with open("file.yaml") as y:
-              data = yaml.load(y, Loader=yaml.SafeLoader)
-              version = data["version"]
-            ```
-          </div>
           <p>
             I've been an engineer for a while now, and believe it or not, I even sometimes know what I'm doing.
             I'm really tempted to see whether or not this bad boy will automatically wrap or not, I have the
@@ -272,72 +252,72 @@
             <div class="place-card-container">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
+                src="assets\pathfinding.jpg"
                 class="place-card-image"
               />
               <div class="place-card-container1">
-                <span class="place-card-text"><span>London</span></span>
+                <span class="place-card-text"><span>Pathfinding</span></span>
                 <span class="place-card-text1">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
+                    Utilising Iterative Deepening A* (IDA*) pathfinding algorthim to solve puzzles and mazes.
                   </span>
                 </span>
-                <div class="outline-button-container">
-                  <button class="outline-button-button button Button">
-                    <span>Discover place</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="place-card-container">
-              <!-- <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-                class="place-card-image"
-              /> -->
-              <img
-                alt="image"
-                src="assets\IMG_20180102_112052.jpg"
-                class="place-card-image"
-              />
-              <div class="place-card-container1">
-                <span class="place-card-text"><span>Rome</span></span>
-                <span class="place-card-text1">
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
-                  </span>
-                </span>
-                <div class="outline-button-container">
-                  <button class="outline-button-button button Button">
-                    <span>Discover place</span>
-                  </button>
-                </div>
+                <a href="projects/pathfinding.html">
+                  <div class="outline-button-container">
+                    <button class="outline-button-button button Button">
+                      <span>Learn More</span>
+                    </button>
+                  </div>
+                </a>
               </div>
             </div>
             <div class="place-card-container">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1513342791620-b106dc487c94?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
+                src="assets\cnc_mill.jpg"
                 class="place-card-image"
               />
               <div class="place-card-container1">
-                <span class="place-card-text"><span>Cluj-Napoca</span></span>
+                <span class="place-card-text"><span>CNC Machine</span></span>
                 <span class="place-card-text1">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
+                    Designed and built a custom CNC Milling Machine from scratch. This project utilised all of 
+                    my skillsets (at the time).
                   </span>
                 </span>
-                <div class="outline-button-container">
-                  <button class="outline-button-button button Button">
-                    <span>Discover place</span>
-                  </button>
-                </div>
+                <a href="projects/cnc_machine.html">
+                  <div class="outline-button-container">
+                    <button class="outline-button-button button Button">
+                      <span>Learn More</span>
+                    </button>
+                  </div>
+                </a>
               </div>
             </div>
             <div class="place-card-container">
+              <img
+                alt="image"
+                src="assets\Swallow Medallion - Wrought Steel.png"
+                class="place-card-image"
+              />
+              <div class="place-card-container1">
+                <span class="place-card-text"><span>3D Design</span></span>
+                <span class="place-card-text1">
+                  <span>
+                    Development of 3D Computer Aided Design Skills through artistic projects. 
+                    I still made them all afterwards.
+                  </span>
+                </span>
+                <a href="projects/cad_design.html">
+                  <div class="outline-button-container">
+                    <button class="outline-button-button button Button">
+                      <span>Learn More</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- <div class="place-card-container">
               <img
                 alt="image"
                 src="https://images.unsplash.com/photo-1551634979-2b11f8c946fe?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
@@ -353,7 +333,7 @@
                 </span>
                 <div class="outline-button-container">
                   <button class="outline-button-button button Button">
-                    <span>Discover place</span>
+                    <span>Learn More</span>
                   </button>
                 </div>
               </div>
@@ -374,7 +354,7 @@
                 </span>
                 <div class="outline-button-container">
                   <button class="outline-button-button button Button">
-                    <span>Discover place</span>
+                    <span>Learn More</span>
                   </button>
                 </div>
               </div>
@@ -395,11 +375,11 @@
                 </span>
                 <div class="outline-button-container">
                   <button class="outline-button-button button Button">
-                    <span>Discover place</span>
+                    <span>Learn More</span>
                   </button>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="landing-page-footer">

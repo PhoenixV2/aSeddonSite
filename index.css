@@ -295,6 +295,18 @@
   	/* height: auto; */
 	max-width: 256px;
   }
+  .markdown-block{
+	width: 100%;
+	padding-bottom: var(--dl-space-space-doubleunit);
+	padding-top: var(--dl-space-space-unit);
+	/* display: flex; */
+  }
+  .code-block {
+	width: 100%;
+	background-color: lightgrey;
+	border-radius: 12px;
+	
+  }
   .landing-page-text15 {
 	color: var(--dl-color-gray-500);
   }
